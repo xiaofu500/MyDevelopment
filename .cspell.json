@@ -1,0 +1,23 @@
+{
+  "import": ["@cspell/dict-lorem-ipsum/cspell-ext.json"],
+  "language": "en-GB",
+  "caseSensitive": false,
+  "words": ["importSortPlugin"],
+  "dictionaries": ["custom-words"],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-words",
+      "path": ".cspell/custom-words.txt"
+    }
+  ],
+  "ignorePaths": [
+    "**/*/node_modules/**",
+    "dist/**",
+    "**/dist/**",
+    "**/doc/**",
+    "**/language/**",
+    "**/language.ts/**",
+    "eslint.config.js",
+    "miaomaignore"
+  ]
+}

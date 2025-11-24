@@ -1,0 +1,2 @@
+#!/use/bin/env sh
+pnpm lint && pnpm spellcheck
